@@ -7,6 +7,8 @@ public class Player implements Serializable {
     private double avgRating;
     private boolean isInjured;
 
+    private static final long serialVersionUID = 2L;
+
     public Player(String name, String surname, int age, double avgRating, boolean isInjured) {
         this.name = name;
         this.surname = surname;
