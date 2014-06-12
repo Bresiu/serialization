@@ -1,8 +1,5 @@
-Serialization
-=============
-
 Java serialization, deserialization and migrating test
-------------------------------------------------------
+======================================================
 
 HOW TO USE Step by step
 =======================
