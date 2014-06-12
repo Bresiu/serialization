@@ -2,13 +2,13 @@ Java serialization, deserialization and migrating test
 ======================================================
 
 HOW TO USE Step by step
-=======================
+-----------------------
 
 1. Step
 -------
 
   We make new ```teams``` array,
-  Player class should not have ```number``` field,
+  ```Player``` class should not have ```number``` field,
   this field is now commented by default
   
 
@@ -43,7 +43,7 @@ HOW TO USE Step by step
 
   now generating players, and inserting to list should be grayed out
 
-  NOTE: We can not change serialVersionUID!
+  NOTE: We can not change ```serialVersionUID```!
 
 4. Step
 -------
