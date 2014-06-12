@@ -32,7 +32,8 @@ HOW TO USE Step by step
   Now you can build project by run ```MainOld.main()```, so teams are serialized to ```newTeam``` file
 
 3. Step
-  
+-------
+
   Now we change some fields in ```Player``` class (for example, add ```number``` field'),
   delete comment in this lines:
 
@@ -48,6 +49,7 @@ HOW TO USE Step by step
   NOTE: We can not change serialVersionUID!
 
 4. Step
+-------
 
   After changing ```Player.class```, build project by run ```MainNew.main()```
   
