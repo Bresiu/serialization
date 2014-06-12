@@ -13,11 +13,12 @@ HOW TO USE Step by step
   We make new ```teams``` array,
   Player class should not have ```number``` field,
   this field is now commented by default
+  
 
-  '''
+  ```
   ArrayList<Team> teams = makeNew.teams();
   System.out.println(teams);
-  '''
+  ```
   
   Output with players without ```int number``` field
 
