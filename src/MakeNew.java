@@ -9,7 +9,7 @@ public class MakeNew {
         ArrayList<Player> players = new ArrayList<Player>();
 
         // /*
-        Player bresiu = new Player(getCurrentDate(), "Michal", "Brewczak", 26, 7.7, false);
+        Player bresiu = new Player(getCurrentDate(), "Michal", "Carrick", 26, 7.7, false);
         Player giggsy = new Player(getCurrentDate(), "Ryan", "Giggs", 40, 8.5, true);
         Player beckham = new Player(getCurrentDate(), "David", "Beckham", 39, 7.5, false);
         Player keano = new Player(getCurrentDate(), "Roy", "Keane", 42, 7.9, false);

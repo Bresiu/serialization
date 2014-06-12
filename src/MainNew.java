@@ -10,6 +10,16 @@ public class MainNew {
         ArrayList<Team> teams = (ArrayList<Team>) inputStream.deserialize(TEAM_FILE);
         System.out.println(teams);
 
+        /*
+        // TEST
+        int somePlayerNumber = teams.get(0).getPlayers().get(0).getNumber();
+        System.out.println("\nPlayer 0 from 0th team have: " + somePlayerNumber + " number\n");
+
+        teams.get(0).getPlayers().get(0).setNumber(17);
+        somePlayerNumber = teams.get(0).getPlayers().get(0).getNumber();
+        System.out.println("\nPlayer 0 from 0th team have: " + somePlayerNumber + " number\n");
+        */
+
         outputStream.serialize(TEAM_FILE, teams);
     }
 }
