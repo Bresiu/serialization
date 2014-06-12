@@ -10,7 +10,19 @@ public class InputStream {
         try {
             fis = new FileInputStream(filename);
             ois = new ObjectInputStream(fis);
-            return ois.readObject();
+            int versionNumber = ois.readInt();
+            switch (versionNumber) {
+                case 1:
+                    System.out.println("case 1");
+                    return ois.readObject();
+                case 2:
+                    System.out.println("case 2");
+                    Migrate migrate = new Migrate();
+                    return migrate.perform(ois.readObject());
+                default:
+                    System.out.println("default");
+                    return ois.readObject();
+            }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {

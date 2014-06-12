@@ -4,9 +4,9 @@ import java.util.ArrayList;
 
 public class MakeNew {
 
-    private ArrayList<Player> generatePlayers() {
+    private ArrayList<Object> generatePlayers() {
 
-        ArrayList<Player> players = new ArrayList<Player>();
+        ArrayList<Object> players = new ArrayList<Object>();
 
         // /*
         Player bresiu = new Player(getCurrentDate(), "Michal", "Carrick", 26, 7.7, false);
@@ -27,6 +27,7 @@ public class MakeNew {
 
         ArrayList<Team> teams = new ArrayList<Team>();
 
+        // /*
         Team manchesterU18 = new Team("manchesterU18", generatePlayers());
         Team manchesterU21 = new Team("manchesterU21", generatePlayers());
         Team manchesterU50 = new Team("manchesterU50", generatePlayers());
@@ -34,6 +35,7 @@ public class MakeNew {
         teams.add(manchesterU18);
         teams.add(manchesterU21);
         teams.add(manchesterU50);
+        // */
 
         return teams;
     }

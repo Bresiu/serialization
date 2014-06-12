@@ -11,6 +11,7 @@ public class OutputStream {
         try {
             fos = new FileOutputStream(filename);
             oos = new ObjectOutputStream(fos);
+            oos.writeInt(Constants.VERSION_NUMBER);
             oos.writeObject(content);
             oos.close();
         } catch (FileNotFoundException e) {

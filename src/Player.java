@@ -37,6 +37,18 @@ public class Player implements Serializable {
     }
     */
 
+    public String getName() {
+        return name;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
     @Override
     public String toString() {///*
         return "\nPlayer{" +

@@ -6,15 +6,19 @@ public class Team implements Serializable {
     private static final long serialVersionUID = 2L;
 
     private String name;
-    private ArrayList<Player> players;
+    private ArrayList<Object> players;
 
-    public Team(String name, ArrayList<Player> players) {
+    public Team(String name, ArrayList<Object> players) {
         this.name = name;
         this.players = players;
     }
 
-    public ArrayList<Player> getPlayers() {
+    public ArrayList<Object> getPlayers() {
         return players;
+    }
+
+    public void setPlayers(ArrayList<Object> players) {
+        this.players = players;
     }
 
     @Override
