@@ -17,6 +17,6 @@ public class Migrate {
     }
 
     private Object changePlayers(Player player) {
-        return new NewPlayer(player.getName(), player.getSurname(), (player.getAge() + "yrs old"));
+        return new NewPlayer(player.getName(), player.getSurname(), ((player.getAge() + 1) + "yrs old"));
     }
 }
