@@ -43,6 +43,8 @@ public class MainOld {
          *
          * now generating players, and inserting to list should be grayed out
          *
+         * NOTE: We can not change serialVersionUID!
+         *
          */
 
         /**
