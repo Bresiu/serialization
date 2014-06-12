@@ -13,7 +13,7 @@ public class MainOld {
          * (1) STEP
          *
          * We make new 'teams' array,
-         * Player class should not have 'number' filed,
+         * Player class should not have 'number' field,
          * this field is now commented by default
          */
         ArrayList<Team> teams = makeNew.teams();
