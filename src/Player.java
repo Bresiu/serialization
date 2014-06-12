@@ -6,7 +6,7 @@ public class Player implements Serializable {
     private DateTime dateTime;
     private String name;
     private String surname;
-    private int number;
+    // private int number;
     // Transient variables won't het serialized
     // private transient int age;
     private int age;
@@ -16,12 +16,12 @@ public class Player implements Serializable {
     // Static variables won't get saved by serialization
     private static final long serialVersionUID = 3L;
 
-    public Player(DateTime dateTime, String name, String surname, int number,
+    public Player(DateTime dateTime, String name, String surname, // int number,
                   int age, double avgRating, boolean isInjured) {
         this.dateTime = dateTime;
         this.name = name;
         this.surname = surname;
-        this.number = number;
+        // this.number = number;
         this.age = age;
         this.avgRating = avgRating;
         this.isInjured = isInjured;
@@ -33,7 +33,7 @@ public class Player implements Serializable {
                 "\ndateTime=" + dateTime +
                 ", \nname='" + name + '\'' +
                 ", \nsurname='" + surname + '\'' +
-                ", \nnumber=" + number +
+                // ", \nnumber=" + number +
                 ", \nage=" + age +
                 ", \navgRating=" + avgRating +
                 ", \nisInjured=" + isInjured +

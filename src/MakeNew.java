@@ -8,7 +8,7 @@ public class MakeNew {
 
         ArrayList<Player> players = new ArrayList<Player>();
 
-        /*
+        // /*
         Player bresiu = new Player(getCurrentDate(), "Michal", "Brewczak", 26, 7.7, false);
         Player giggsy = new Player(getCurrentDate(), "Ryan", "Giggs", 40, 8.5, true);
         Player beckham = new Player(getCurrentDate(), "David", "Beckham", 39, 7.5, false);
@@ -18,7 +18,7 @@ public class MakeNew {
         players.add(giggsy);
         players.add(beckham);
         players.add(keano);
-        */
+        // */
 
         return players;
     }
